@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+<meta charset= "utf-8">
+<meta name= "viewport" width="device-width, initial-scale=1">
+<style>
+     
+ul {
+    margin: 10;
+    padding: 10;
+    overflow: hidden;
+    background-color: black;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 24px;
+}
+
+li a:hover {
+    background-color: green;
+}
+
+
+input[type=text], select {	
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    width: 30%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.column {
+     float: left;
+     width: 45%;
+     padding: 15px;
+}
+.row:after {
+    display: table;
+
+    
+    
+}
+body {
+    background-image: url(http://trail.pugetsound.edu/wp-content/uploads/2016/02/a_a_2-1.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+   
+   
+     
+}
+ .p1 {
+        background-color: white;
+        border-style:  double;
+        border-width: 20px;
+        border-color: darkgrey;
+        border-radius: 5px;
+        line-height: 1.8;
+        text-align: center;
+        font-size: 20px;
+        	
+}
+
+ .he {
+       text-align: center;
+       font-size: 50px;
+       color: lightgrey;
+       text-shadow: 3px 2px black;
+       text-transform: capitalize;
+       letter-spacing: 2px;
+       font-family: "Times New Roman";
+
+}
+}
+
+   
+</style>
+</head>
+<body>
+
+<h1 class = "he"> welcome to our online registration system </h1>
+<div class="ul">
+<ul>
+<li><a href="#home"><strong>home<strong></a></li>
+<li><a href="assets/field.html""><strong>news<strong></a></li>
+<li><a href="#details"><strong>details<strong></a></li>
+<li><a href= "contact.html"><stong>contact<strong></a></li>
+</ul>
+</div>
+<div class="row">
+<div class="column">
+<h1 class = "p1"> signup your account </h1>
+
+<form>
+ <label for="fname" style= "color: black;">First Name</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.."><br>
+    <label for="lname" style= "color: black;">Last Name</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.."><br>
+    <label for="age" style= "color: black;">Age</label><br>
+    <input type="number" id="age" name="age" placeholder="18" max="22" min="18"><br><br>
+    <label for="education" style= "color: black;">Education</label><br>
+    <select id="education" name="education"><br>
+    <option value="eng">intermediate in pre-engineering</option>
+    <option value="com">intermediate in computer science</option>
+    <option value="med">intermediate in pre-medical</option>
+    </select><br>
+    <label for="password" style= "color: black;">Enter Password</label><br>
+    <input type="text" id="password" name="password"><br>
+    <input type="submit" value="signup">
+
+	 <a href="test.html"><button>Click Me!</button> </a>
+
+</form>
+</div>
+<div class="column">
+<h1 class="p1">login your account</h1>
+<form>
+  <label for="uname" style= "color: black;">Username</label><br>
+    <input type="text" id="uname" name="username"><br>
+  <label for="password" style= "color: black;">Password</label><br>
+    <input type="text" id="password" name="password"><br>
+      <input type="submit" value="login">
+</form>
+</div>
+</div>
+
+
+</body>
+</html>
+
